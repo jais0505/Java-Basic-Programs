@@ -1,0 +1,11 @@
+
+public class Sample {
+
+	public static void main(String arg[]) {
+		
+		Sum obj1=new Sum();
+		Sum obj2=new Sum();
+		
+		
+	}
+}

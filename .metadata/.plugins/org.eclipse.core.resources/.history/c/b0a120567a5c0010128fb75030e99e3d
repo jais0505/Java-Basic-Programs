@@ -1,0 +1,15 @@
+
+public class A {
+	
+	A(){
+		System.out.println("It's Constructor A");
+	}
+
+	int a;
+	
+	void display() {
+		
+		System.out.println("It's A");
+		
+	}
+}

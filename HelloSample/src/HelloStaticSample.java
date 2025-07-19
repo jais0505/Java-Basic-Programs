@@ -1,0 +1,25 @@
+
+public class HelloStaticSample {
+
+	int a=10;
+	static int b=15;
+	public static void main(String arg[]) {
+		
+		HelloStaticSample obj1=new HelloStaticSample();
+		HelloStaticSample obj2=new HelloStaticSample();
+		
+		System.out.println("a="+obj1.a);
+		
+		obj1.a=2;
+		obj2.a=16;
+		
+		obj1.b=120;
+		
+	
+		System.out.println("b="+b);
+		
+		
+		
+	}
+	
+}

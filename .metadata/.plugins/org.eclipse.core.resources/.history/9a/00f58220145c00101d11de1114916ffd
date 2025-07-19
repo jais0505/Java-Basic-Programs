@@ -1,0 +1,6 @@
+
+public class First {
+
+	Final f=new Final();
+	f.displayFinal();
+}

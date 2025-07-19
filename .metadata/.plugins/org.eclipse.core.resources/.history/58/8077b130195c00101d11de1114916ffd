@@ -1,0 +1,9 @@
+
+public class Sample {
+
+	int a,b;//Global variable;
+	
+	Sample(int a,int b?){//local variables
+		
+	}
+}

@@ -1,0 +1,41 @@
+
+public class B extends A{
+
+	B(){
+		System.out.println("It's Constructor B");
+	}
+	
+	B(int a){
+		//super(20);
+		System.out.println("Argument constructor of B");
+	}
+	
+	int a=20;
+	void display() {
+		
+		System.out.println("It's B");
+		
+		//super.display();
+		
+		super.a=10;
+		
+		int c=super.a+a;
+		 
+		System.out.println(c);
+	}
+	
+	void BaseDisplay() {
+		
+		super.display();
+	}
+	
+	public static void main(String[] args) {
+		
+		B obj=new B(10);
+		
+//		obj.BaseDisplay();
+//		obj.display();
+		
+		
+	}
+}

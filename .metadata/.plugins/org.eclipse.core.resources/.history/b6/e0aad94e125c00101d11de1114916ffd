@@ -1,0 +1,21 @@
+
+public class HelloStaticSample {
+
+	int a=10;
+	static int b=15;
+	public static void main(String arg[]) {
+		
+		HelloStaticSample h=new HelloStaticSample();
+		System.out.println("a="+h.a);
+		
+		b=100;
+		
+		b=120;
+		
+		System.out.println("b="+b);
+		
+		
+		
+	}
+	
+}

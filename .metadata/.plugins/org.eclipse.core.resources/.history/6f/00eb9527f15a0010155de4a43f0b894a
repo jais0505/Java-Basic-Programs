@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class FnSample {
+
+	int add(int,int);//fn declaration
+	public static void main(String args[]) {
+		
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("Enter 2 number:");
+		
+		int num1=s.nextInt();
+		int num2=s.nextInt();
+		
+		int sum=add(num1,num2);//fn call
+		
+		
+		
+	}
+	
+	int add(int a,int b) {
+		int c=a+b;
+		return b;
+	}
+}

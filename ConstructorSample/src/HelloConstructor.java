@@ -1,0 +1,15 @@
+
+public class HelloConstructor {
+
+	public static void main(String a[]) {
+		
+		Sample s=new Sample();
+		
+		HelloConstructor obj=new HelloConstructor();
+		
+	}
+	
+	HelloConstructor(){
+		System.out.println("Hello Constructor");
+	}
+}

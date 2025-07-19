@@ -1,0 +1,11 @@
+
+public class Sample {
+
+	int a=100,b=200;//Global variable;
+	
+	Sample(int a,int b?){//local variables
+		
+		this.a=a;
+		this.b=b
+	}
+}
